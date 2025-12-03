@@ -1,0 +1,20 @@
+{
+    "name": "samuelfoletto/lib-viacep",
+    "description": "Pacote simples de consultas no viaCEP",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Samuelfoletto\\LibViacep\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Samuel Foletto",
+            "email": "sfoletto@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.10"
+    }
+}
